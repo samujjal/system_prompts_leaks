@@ -1,6 +1,6 @@
 # System Prompts Leaks
 
-Extracted system prompts, system messages, and developer instructions from popular AI chatbots and coding assistants — ChatGPT (GPT-5.4, GPT-5.3, Codex), Claude (Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1 Pro, 3 Flash, Gemini CLI), Grok (4.2, 4), Perplexity, and more.
+Extracted system prompts, system messages, and developer instructions from popular AI chatbots and coding assistants — ChatGPT (GPT-5.5, GPT-5.4, Codex), Claude (Opus 4.7, Opus 4.6, Claude Code, Cowork), Gemini (3.1 Pro, 3 Flash, Gemini CLI), Grok (4.3, 4.2), Perplexity, Meta AI, and more.
 
 Updated regularly with new models and versions. PRs welcome.
 
@@ -14,19 +14,41 @@ Updated regularly with new models and versions. PRs welcome.
 
 ---
 
+## 🔥 Recently Updated
+
+| What | Date | Link |
+|------|------|------|
+| **GPT-5.5 Thinking** — ChatGPT's newest model | Apr 26, 2026 | [Thinking](OpenAI/gpt-5.5-thinking.md) · [Codex](OpenAI/codex/gpt-5.5.md) |
+| **Claude Opus 4.7** — Anthropic's latest flagship | Apr 22, 2026 | [System prompt](Anthropic/claude-opus-4.7.md) |
+| **Claude Cowork** — Multi-agent collaboration | Apr 27, 2026 | [System prompt](Anthropic/claude-cowork.md) |
+| **Claude Code** — CLI coding assistant | Feb 21, 2026 | [System prompt](Anthropic/claude-code.md) |
+| **Grok 4.3 Beta** — xAI's sandbox environment | Apr 27, 2026 | [System prompt](xAI/grok-4.3-beta.md) |
+| **Gemini 3.1 Pro** — Google's latest | Mar 15, 2026 | [System prompt](Google/gemini-3.1-pro.md) · [API](Google/gemini-3.1-pro-api.md) |
+| **Codex CLI (GPT-5.5)** — OpenAI's coding agent | Apr 26, 2026 | [Codex](OpenAI/codex/gpt-5.5.md) · [Friendly](OpenAI/codex/personality_friendly_gpt-5.5.md) · [Pragmatic](OpenAI/codex/personality_pragmatic_gpt-5.5.md) |
+| **Claude Design** — UI/design assistant | Apr 18, 2026 | [System prompt](Anthropic/claude-design.md) |
+| **Claude Mobile (iOS)** — Mobile app prompt | Apr 22, 2026 | [System prompt](Anthropic/claude-mobile-ios.md) |
+
+---
+
 ## Anthropic — Claude
 
 | Model | Prompt |
 |-------|--------|
+| **Claude Opus 4.7** | [**System prompt**](Anthropic/claude-opus-4.7.md) |
 | **Claude Opus 4.6** | [**System prompt**](Anthropic/claude-opus-4.6.md) |
 | **Claude Sonnet 4.6** | [**System prompt**](Anthropic/claude-sonnet-4.6.md) |
 | Claude.ai | [Human-readable](Anthropic/claude.ai-human-readable.md) · [Injections](Anthropic/claude.ai-injections.md) |
 | Claude Code | [System prompt](Anthropic/claude-code.md) |
 | Claude Cowork | [System prompt](Anthropic/claude-cowork.md) |
 | Claude Desktop Code | [System prompt](Anthropic/claude-desktop-code.md) |
+| Claude Design | [System prompt](Anthropic/claude-design.md) |
+| Claude Mobile (iOS) | [System prompt](Anthropic/claude-mobile-ios.md) |
 | Claude in Chrome | [System prompt](Anthropic/claude-in-chrome.md) |
 | Claude for Excel | [System prompt](Anthropic/claude-for-excel.md) |
+| Claude for Word | [System prompt](Anthropic/claude-for-word.md) |
+| Claude in PowerPoint | [System prompt](Anthropic/claude-in-powerpoint.md) |
 | Default Styles | [Styles](Anthropic/default-styles.md) |
+| Official Docs | [Opus 4.7](Anthropic/Official/claude-opus-4.7.md) · [Opus 4.6](Anthropic/Official/claude-opus-4.6.md) · [Sonnet 4.6](Anthropic/Official/claude-sonnet-4.6.md) |
 
 <details><summary>Older & variant versions</summary>
 
@@ -45,14 +67,15 @@ Updated regularly with new models and versions. PRs welcome.
 
 | Model | Prompt |
 |-------|--------|
+| **GPT-5.5** | [**Thinking**](OpenAI/gpt-5.5-thinking.md) · [**Codex**](OpenAI/codex/gpt-5.5.md) · [Friendly](OpenAI/codex/personality_friendly_gpt-5.5.md) · [Pragmatic](OpenAI/codex/personality_pragmatic_gpt-5.5.md) |
 | **GPT-5.4** | [**API**](OpenAI/gpt-5.4-api.md) · [**Thinking**](OpenAI/gpt-5.4-thinking.md) · [**Codex**](OpenAI/codex/gpt-5.4.md) · [Codex Mini](OpenAI/codex/gpt-5.4-mini.md) |
 | **GPT-5.3** | [**Codex**](OpenAI/codex/gpt-5.3-codex.md) · [Codex API](OpenAI/gpt-5.3-codex-api.md) · [Chat API](OpenAI/gpt-5.3-chat-api.md) · [Instant](OpenAI/gpt-5.3-instant.md) |
 | GPT-5.2 | [Mini (free)](OpenAI/gpt-5.2-mini-free-account.md) · [Thinking](OpenAI/gpt-5.2-thinking.md) · [Codex](OpenAI/codex/gpt-5.2-codex.md) |
-| **Codex CLI** | [Per-model prompts](OpenAI/codex/) · [Friendly persona](OpenAI/codex/personality_friendly.md) · [Pragmatic persona](OpenAI/codex/personality_pragmatic.md) |
+| **Codex CLI** | [Per-model prompts](OpenAI/codex/) · [Friendly persona](OpenAI/codex/personality_friendly.md) · [Pragmatic persona](OpenAI/codex/personality_pragmatic.md) · [Auto-review](OpenAI/codex/codex-auto-review.md) |
 | o4-mini | [System prompt](OpenAI/o4-mini.md) · [High](OpenAI/o4-mini-high.md) |
 | o3 | [System prompt](OpenAI/o3.md) |
 | ChatGPT Atlas | [System prompt](OpenAI/chatgpt-atlas.md) |
-| **Tools** | [Web search](OpenAI/tool-web-search.md) · [Deep research](OpenAI/tool-deep-research.md) · [Python](OpenAI/tool-python.md) · [Canvas](OpenAI/tool-canvas-canmore.md) · [Image gen](OpenAI/tool-create-image-image_gen.md) · [Memory](OpenAI/tool-memory-bio.md) · [File search](OpenAI/tool-file_search.md) |
+| **Tools** | [Web search](OpenAI/tool-web-search.md) · [Deep research](OpenAI/tool-deep-research.md) · [Python](OpenAI/tool-python.md) · [Canvas](OpenAI/tool-canvas-canmore.md) · [Image gen](OpenAI/tool-create-image-image_gen.md) · [Memory](OpenAI/tool-memory-bio.md) · [Advanced memory](OpenAI/tool-advanced-memory.md) · [File search](OpenAI/tool-file_search.md) |
 | **Policies** | [Image safety](OpenAI/prompt-image-safety-policies.md) · [Automation context](OpenAI/prompt-automation-context.md) |
 
 <details><summary>Older models & variants</summary>
@@ -77,7 +100,8 @@ Updated regularly with new models and versions. PRs welcome.
 | **Gemini 3 Flash** | [**System prompt**](Google/gemini-3-flash.md) |
 | Gemini 3 Pro | [System prompt](Google/gemini-3-pro.md) |
 | Gemini Diffusion | [System prompt](Google/gemini-diffusion.md) |
-| Gemini CLI | [System prompt](Google/Gemini%20CLI%20System.md) |
+| Gemini CLI | [System prompt](Google/gemini-cli.md) |
+| Google Search AI Mode | [System prompt](Google/google-search-ai-mode.md) |
 | Jules | [System prompt](Google/jules.md) |
 | Gemini in Chrome | [System prompt](Google/gemini_in_chrome.md) |
 | Gemini Workspace | [System prompt](Google/gemini-workspace.md) |
@@ -90,8 +114,8 @@ Updated regularly with new models and versions. PRs welcome.
 | Gemini 2.5 Flash | [Image preview](Google/gemini-2.5-flash-image-preview.md) |
 | Gemini 2.0 Flash | [Webapp](Google/gemini-2.0-flash-webapp.md) |
 | AI Studio Build | [System prompt](Google/ai-studio-build.md) |
-| Nano / Bana 2 | [System prompt](Google/nano-bana-2.md) |
-| NotebookLM | [Chat](Google/NotebookLM-chat.md) |
+| Nano / Banana 2 | [System prompt](Google/nano-banana-2-api.md) |
+| NotebookLM | [Chat](Google/notebooklm-chat.md) |
 
 </details>
 
@@ -99,9 +123,10 @@ Updated regularly with new models and versions. PRs welcome.
 
 | Model | Prompt |
 |-------|--------|
-| Grok 4.2 | [System prompt](xAI/grok-4.2.md) |
-| Grok 4 | [System prompt](xAI/grok-4.md) · [API](xAI/grok-api.md) |
+| **Grok 4.3 Beta** | [**System prompt**](xAI/grok-4.3-beta.md) |
+| **Grok 4.2** | [**System prompt**](xAI/grok-4.2.md) |
 | Grok 4.1 Beta | [System prompt](xAI/grok-4.1-beta.md) |
+| Grok 4 | [System prompt](xAI/grok-4.md) · [API](xAI/grok-api.md) |
 | Grok 3 | [System prompt](xAI/grok-3.md) |
 | Grok Account | [System prompt](xAI/grok-account.md) |
 | Grok Personas | [Personas](xAI/grok-personas.md) |
@@ -118,6 +143,10 @@ Updated regularly with new models and versions. PRs welcome.
 
 | Product | Prompt |
 |---------|--------|
+| Meta AI | [System prompt](Misc/meta-ai.md) |
+| Qwen 3.6 Plus | [System prompt](Misc/qwen-3.6-plus.md) |
+| Brave Search | [System prompt](Misc/brave-search.md) |
+| Indus AI | [System prompt](Misc/indus-ai.md) |
 | GitHub Copilot (Word) | [System prompt](Misc/copilot-in-microsoft-word.md) |
 | Notion AI | [System prompt](Misc/Notion-AI.md) |
 | Kagi Assistant | [System prompt](Misc/Kagi%20Assistant.md) |
