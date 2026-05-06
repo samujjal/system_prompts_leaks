@@ -12,6 +12,7 @@ Updated regularly with new models and versions. PRs welcome.
 
 <img width="976" height="248" alt="GitHub stars growth chart for system prompts leaks repository" src="https://github.com/user-attachments/assets/444e3fcc-9374-4964-afd3-069222713dc0" />
 
+
 ---
 
 ## 🔥 Recently Updated
@@ -161,6 +162,7 @@ Updated regularly with new models and versions. PRs welcome.
 | Proton Lumo AI | [System prompt](Misc/proton-lumo-ai.md) |
 | Sesame AI Maya | [System prompt](Misc/Sesame-AI-Maya.md) |
 | Character AI | [System prompt](Misc/character-ai.md) |
+| Flint K12 | [System prompt](Anthropic/FlintK12/prompt.md) · [Tools](Anthropic/FlintK12/tools.md) · [User info](Anthropic/FlintK12/user-info.md) |
 
 ---
 
@@ -177,3 +179,6 @@ Released under the [MIT License](LICENSE).
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=asgeirtj/system_prompts_leaks&type=Date)](https://www.star-history.com/#asgeirtj/system_prompts_leaks&Date)
+
+
+<img width="1235" height="1274" alt="image" src="https://github.com/user-attachments/assets/7361a428-aa42-4366-8a69-12a77ee43514" />
